@@ -1,0 +1,844 @@
+# Translation of Themes - Storefront in Serbian
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-14 16:13:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront је савршена тема за Ваш следећи WooCommerce пројекат. Дизајнирана и изграђена од стране WooCommerce Core програмера, она поседује беспрекорну интеграцију са самим WooCommerce-ом, али и са многим најпопуларнијим WooCommerce екстензијама за интеракцију са купцима. Постоји неколико опција за распоред садржаја и опцијом боја које омогућавају персонализацију Ваше радње, вишеструка виџет подручја, респонзиван дизајн и још много тога. Програмерима ће се свидети због једноставне и проширива база података, која ће им донети ужитак приликом прилагођавања и проширења. У потрази сте за WooCommerce темом? Управо сте је пронашли!"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "или"
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "Изграђен са Storefront-ом"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "Storefront - Савршена платформа за ваш следећи WooCommerce пројекат."
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "сазнај више"
+
+#: inc/class-storefront.php:222
+msgid "Huge"
+msgstr "Огромна"
+
+#: inc/class-storefront.php:217
+msgid "Large"
+msgstr "Велика"
+
+#: inc/class-storefront.php:212
+msgid "Medium"
+msgstr "Средња"
+
+#: inc/class-storefront.php:207
+msgid "Normal"
+msgstr "Нормална"
+
+#: inc/class-storefront.php:202
+msgid "Small"
+msgstr "Мала"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1080
+msgid "You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Можете да промените овај текст тако што ћете уредити страну \"Добро дошли\" преко изборника \"Стране\" на вашој контролној табли."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1076
+msgid "This is your homepage which is what most visitors will see when they first visit your shop."
+msgstr "Ово је ваша насловна страна коју ће већина посетилаца видети када први пут посете вашу продавницу."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Уреди <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Ознака:"
+msgstr[1] "Ознаке:"
+msgstr[2] "Ознака:"
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Категорија:"
+msgstr[1] "Категорије:"
+msgstr[2] "Категорија:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "Објављено дана %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "од"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:891
+msgid "Product Brands"
+msgstr "Брендови производа"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:874
+msgid "Shop by Brand"
+msgstr "Претражи по бренду"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:838
+msgid "You're viewing:"
+msgstr "Гледате:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:774
+msgid "More products"
+msgstr "Више производа"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "Претходни чланак:"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "Следећи чланак:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Приказује везе за следеће и претходно на странама за производе. Приказује се умањена слика производа, а наслов се види на прелазак курсором."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "Пагинација за приказ производа"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "Мала трака са садржајем при врху претраживача која садржи битне информације о производу и дугме за додавање у корпу. Приказује се када стандардно дугме за додавање у корпу нестане са екрана у току скроловања стране."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "Лепљива трака за додавање у корпу"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "Страница производа"
+
+#: inc/customizer/class-storefront-customizer.php:293
+msgid "Hero text color"
+msgstr "Боја истакнутог текста"
+
+#: inc/customizer/class-storefront-customizer.php:269
+msgid "Hero heading color"
+msgstr "Боја истакнутог заглавља"
+
+#: inc/class-storefront.php:351
+msgid "Collapse child menu"
+msgstr "Скупи подређени изборник"
+
+#: inc/class-storefront.php:350
+msgid "Expand child menu"
+msgstr "Прошири подређени изборник"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Изграђено са Storefront &amp; WooCommerce"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - Најбоља eCommerce платформа за Вордпрес"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Организујте ваше изборнике додавањем страница, категорија, ознака и прилагођених веза."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Прилагодите ваше навигационе изборнике"
+
+#: inc/class-storefront.php:487
+msgid "Post Navigation"
+msgstr "Навигација чланака"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "Навигација коментара испод"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "Навигација коментара изнад"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Коментари чланка"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Промовисани производи"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Активирано"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:576
+msgid "Best Selling Products"
+msgstr "Најпродаванији производи"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:521
+msgid "On Sale Products"
+msgstr "Производи на попусту"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "Уредите ову секцију"
+
+#: inc/nux/class-storefront-nux-starter-content.php:950
+msgid "Vneck Tshirt"
+msgstr "V-израз мајица"
+
+#: inc/nux/class-storefront-nux-starter-content.php:929
+msgid "Tshirt"
+msgstr "Мајица"
+
+#: inc/nux/class-storefront-nux-starter-content.php:908
+msgid "Polo"
+msgstr "Поло"
+
+#: inc/nux/class-storefront-nux-starter-content.php:887
+msgid "Long Sleeve Tee"
+msgstr "Мајица дугих рукава"
+
+#: inc/nux/class-storefront-nux-starter-content.php:865
+msgid "Hoodie"
+msgstr "Дуксер"
+
+#: inc/nux/class-storefront-nux-starter-content.php:844
+msgid "Hoodie with Zipper"
+msgstr "Дуксер са рајсфершлусом"
+
+#: inc/nux/class-storefront-nux-starter-content.php:822
+msgid "Hoodie with Pocket"
+msgstr "Дуксер са джепом"
+
+#: inc/nux/class-storefront-nux-starter-content.php:801
+msgid "Hoodie with Logo"
+msgstr "Дуксер са логом"
+
+#: inc/nux/class-storefront-nux-starter-content.php:780
+msgid "Sunglasses"
+msgstr "Наочаре за сунце"
+
+#: inc/nux/class-storefront-nux-starter-content.php:758
+msgid "Cap"
+msgstr "Качкет"
+
+#: inc/nux/class-storefront-nux-starter-content.php:736
+msgid "Belt"
+msgstr "Каиш"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Beanie"
+msgstr "Капа"
+
+#: inc/nux/class-storefront-nux-starter-content.php:708
+msgid "Tshirts"
+msgstr "Мајице"
+
+#: inc/nux/class-storefront-nux-starter-content.php:705
+msgid "Hoodies"
+msgstr "Дуксери"
+
+#: inc/nux/class-storefront-nux-starter-content.php:703
+#: inc/nux/class-storefront-nux-starter-content.php:706
+#: inc/nux/class-storefront-nux-starter-content.php:709
+msgid "A short category description"
+msgstr "Кратак опис категорије"
+
+#: inc/nux/class-storefront-nux-starter-content.php:702
+msgid "Accessories"
+msgstr "Аксесоари"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "На овој страници налазе се неке осоновне контакт информације, као што су адреса и број телефона. Можда бисте желели да путем додатка додате контакт форму."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Контакт"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Можда сте уметник који жели представити себе и своје радове овде или можда сте бизнисмен са мисијом коју желите да представите."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Информације"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1072
+msgid "Welcome"
+msgstr "Добро дошли"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Завршено"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Све је постављено! Запамтите да %1$sсачувате и објавите%2$s ваше промене када завршите. %3$sМожете се вратити на контролну таблу кликом на X у горњем левом углу."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Одаберите боје за позадину дугмета и текста. Напомињемо, боје бренда су добар одабир."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Обојите своје дугмиће"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "У панелу Типографија можете одредити примарну боју која ће се применити на објекте као што су линкови и оцене звездицама. Препоручујемо употребу бренд боје за ову поставку."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Одаберите примарну боју"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Отворите \"Идентитет веб места\" у Прилагођивачу, затим кликните на \"Изабери логотип\" дугме како бисте поставили Ваш лого."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Овде можете контролисати целокупни изглед ваше радње.%sЗа почетак, додајмо ваш лого"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Добродошли у Прилагођавач"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Прескочи овај корак"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Не хвала, прескочи туторијал"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:41
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+#: inc/nux/class-storefront-nux-admin.php:180
+msgid "Let's go!"
+msgstr "Започнимо!"
+
+#: inc/nux/class-storefront-nux-admin.php:174
+msgid "Add example products"
+msgstr "Додај демо производе"
+
+#: inc/nux/class-storefront-nux-admin.php:164
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Креирај насловну страну користећи Storefront шаблон за насловну страну."
+
+#: inc/nux/class-storefront-nux-admin.php:162
+msgid "Apply the Storefront homepage template"
+msgstr "Примени Storefront шаблон за насловну страну."
+
+#: inc/nux/class-storefront-nux-admin.php:140
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Поставили сте WooCommerce, сада је време да му додамо мало стила! Започнимо преласком у Прилагођавач и додавањем Вашег логоa."
+
+#: inc/nux/class-storefront-nux-admin.php:138
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Пре него што додате Ваш први производ, хајде да дизајнирамо Вашу радњу. Додаћемо неке демо производе за Вас. Када будете спремни, започнимо додавањем Вашег логоа."
+
+#: inc/nux/class-storefront-nux-admin.php:134
+msgid "Design your store 🎨"
+msgstr "Уредите Вашу продавницу 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Activate WooCommerce"
+msgstr "Укључи WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "WooCommerce activated"
+msgstr "WooCommerce је укључен"
+
+#: inc/nux/class-storefront-nux-admin.php:129
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Да бисте омогућили карактеристике eCommerce-а морате да поставите WooCommerce додатак."
+
+#: inc/nux/class-storefront-nux-admin.php:128
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Хвала што сте поставили Storefront, страва сте! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:277
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Виџети додани овде ће се појавити у колони %1$d у реду %2$d подножја."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:274
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Подножје ред %1$d - колона %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:271
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Виџети додани овде ће се појавити у колони %1$d подножја."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:268
+msgid "Footer Column %1$d"
+msgstr "Заглавље колона %1$d"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "Сазнајте више"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "Поставите сада"
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "Погледајте их"
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Наравно да су потпуно компатибилни са сваком Storefront екстензијом."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Свака је дизајнирана да служи другачијој индустрији - од моде до хране."
+
+#: inc/admin/class-storefront-admin.php:141
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Брзо и једноставно трансформишите изглед ваше радње са Storefront под-темама."
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "Алтернативни дизајн"
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "Сазнајте више и наручите"
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Учините је Вашом без петљања по коду са Storefront пакетом екстензија. Изразите се, оптимизујте конверзије, одушевите купце."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Сви алати који ће Вам требати за дефинисанје Вашег стила и прилагођавања Storefront теме."
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront пакет екстензија"
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Здраво! Можда ћете бити заинтересовани за следеће Storefront екстензије и дизајне."
+
+#: inc/admin/class-storefront-admin.php:105
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Још једна ствар... Можда ћете бити заинтересовани за следеће Storefront екстензије и дизајне."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Постављање је завршено %1$sВаша Storefront авантура почиње сада 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "Програмерски блог"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "Документација"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "Подршка"
+
+#: inc/class-storefront.php:255
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Виџети додати у овој области ће се појавити испод заглавља и изнад главног садржаја."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:746
+msgid "My Account"
+msgstr "Мој налог"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:716
+msgid "Search"
+msgstr "Претрага"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1047
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:555
+msgid "Best Sellers"
+msgstr "Најпродаваније"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1035
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:443
+msgid "Fan Favorites"
+msgstr "Најпопуларније"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1106
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:387
+msgid "We Recommend"
+msgstr "Препоручујемо"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1027
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:331
+msgid "New In"
+msgstr "Ново"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1019
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:276
+msgid "Shop by Category"
+msgstr "Купујте по категоријама"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "Изборник"
+
+#: inc/class-storefront.php:253
+msgid "Below Header"
+msgstr "Испод заглавља"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Свиђа вам се %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "%s пројекат"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:640
+msgid "New In Store"
+msgstr "Ново у радњи"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:627
+msgid "On Sale Now"
+msgstr "Тренутно на попусту"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Претходни"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "Следећи"
+
+#: inc/customizer/class-storefront-customizer.php:308
+msgid "Header background image"
+msgstr "Позадинска слика заглавља"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:464
+msgid "Popular Products"
+msgstr "Популарни производи"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Ништа није пронађено на овој локацији. Покушајте са претрагом или са линковима испод."
+
+#. Template Name of the theme
+#: inc/nux/class-storefront-nux-starter-content.php:66
+msgid "Homepage"
+msgstr "Почетна страница"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Пуна ширина"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Резултати претраживања за: %s"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d производ"
+msgstr[1] "%d производа"
+msgstr[2] "%d производа"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "Погледајте Вашу корпу"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1041
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:499
+msgid "On Sale"
+msgstr "На попусту"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:409
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:614
+msgid "Featured Products"
+msgstr "Истакнути производи"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:352
+msgid "Recent Products"
+msgstr "Скорашњи производи"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:297
+msgid "Product Categories"
+msgstr "Категорије производа"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Даље"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "% коментара"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "Оставите коментар"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "Настави са читањем %s"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "Стране:"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "Скочи на садржај"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "Прескочи на навигацију"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "Секундарна навигација"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "Примарно кретање"
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "Уреди"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар чека преглед."
+
+#: inc/class-storefront.php:247
+msgid "Sidebar"
+msgstr "Бочна трака"
+
+#: inc/nux/class-storefront-nux-starter-content.php:192
+#: inc/class-storefront.php:97
+msgid "Handheld Menu"
+msgstr "Изборник за мобилне уређаје"
+
+#: inc/nux/class-storefront-nux-starter-content.php:182
+#: inc/class-storefront.php:96
+msgid "Secondary Menu"
+msgstr "Секундарни изборник"
+
+#: inc/nux/class-storefront-nux-starter-content.php:162
+#: inc/class-storefront.php:95
+msgid "Primary Menu"
+msgstr "Примарни изборник"
+
+#: inc/customizer/class-storefront-customizer.php:663
+msgid "Looking for more options?"
+msgstr "Тражите више опција?"
+
+#: inc/customizer/class-storefront-customizer.php:645
+msgid "More"
+msgstr "Више"
+
+#: inc/customizer/class-storefront-customizer.php:628
+msgid "General Layout"
+msgstr "Главни изборник"
+
+#: inc/customizer/class-storefront-customizer.php:608
+msgid "Layout"
+msgstr "Распоред"
+
+#: inc/customizer/class-storefront-customizer.php:594
+msgid "Alternate button text color"
+msgstr "Алтернативна боја текста дугмета"
+
+#: inc/customizer/class-storefront-customizer.php:570
+msgid "Alternate button background color"
+msgstr "Алтернативна боја позадине дугмета"
+
+#: inc/customizer/class-storefront-customizer.php:502
+msgid "Customize the look & feel of your website buttons."
+msgstr "Прилагоди изглед у утисак дугмета Вашег веб места."
+
+#: inc/customizer/class-storefront-customizer.php:500
+msgid "Buttons"
+msgstr "Дугмад"
+
+#: inc/customizer/class-storefront-customizer.php:394
+msgid "Customize the look & feel of your website footer."
+msgstr "Прилагоди изглед у утисак подножја Вашег веб места."
+
+#: inc/customizer/class-storefront-customizer.php:392
+msgid "Footer"
+msgstr "Подножје"
+
+#: inc/customizer/class-storefront-customizer.php:378
+#: inc/customizer/class-storefront-customizer.php:486
+msgid "Link color"
+msgstr "Боја везе"
+
+#: inc/customizer/class-storefront-customizer.php:330
+#: inc/customizer/class-storefront-customizer.php:414
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Background color"
+msgstr "Боја позадине"
+
+#: inc/customizer/class-storefront-customizer.php:197
+#: inc/customizer/class-storefront-customizer.php:438
+msgid "Heading color"
+msgstr "Боја наслова"
+
+#: inc/customizer/class-storefront-customizer.php:221
+#: inc/customizer/class-storefront-customizer.php:354
+#: inc/customizer/class-storefront-customizer.php:462
+#: inc/customizer/class-storefront-customizer.php:546
+msgid "Text color"
+msgstr "Боја текста"
+
+#: inc/customizer/class-storefront-customizer.php:245
+msgid "Link / accent color"
+msgstr "Боја линкова"
+
+#: inc/customizer/class-storefront-customizer.php:176
+msgid "Typography"
+msgstr "Типографија"
+
+#: inc/customizer/class-storefront-customizer.php:127
+msgid "Header"
+msgstr "Заглавље"
+
+#: inc/customizer/class-storefront-customizer.php:123
+msgid "Background"
+msgstr "Позадина"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Зашто нам не бисте оставили рецензију на %1$sWordPress.org %2$s? Заиста ценимо Ваше мишљење!"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "Постоје многа проширења за %1$s која вам пружају додатне могућности. За више информација погледајте страницу %2$s%3$s%4$s на вашој контролној табли."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Додајте Ваш лого"
+
+#: inc/nux/class-storefront-nux-admin.php:130
+msgid "Install WooCommerce"
+msgstr "Додај WooCommerce"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Укључи"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа да не можемо да пронађемо оно што сте тражили. Можда ће претраживање или једна од веза испод помоћи."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Жао нам је, али ништа не одговара вашем упиту. Молимо вас да покушате поново са другим кључним речима."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни сте да објавите свој први чланак? <a href=\"%1$s\">Започните овде</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Ништа није пронађено"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Затворено за коментаре."
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Новији коментари &rarr;"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; Старији коментари"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "Кретање коментара"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s коментар о &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s коментара о &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s коментара о &#0132;%2$s&#0147;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Та страница не може бити пронађена."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront"

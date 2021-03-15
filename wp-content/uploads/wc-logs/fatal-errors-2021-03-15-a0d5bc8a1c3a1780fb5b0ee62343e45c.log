@@ -1,0 +1,24 @@
+2021-03-15T12:34:34+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 42
+
+2021-03-15T12:42:47+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 33
+
+2021-03-15T12:42:53+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 33
+
+2021-03-15T12:48:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_category_name_by_id() in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php:35
+Stack trace:
+#0 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(1139): RestApi->generate_data(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/custom_p...', Array, NULL)
+#2 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/custom_p...')
+#4 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-h in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 35
+
+2021-03-15T12:54:45+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_attachment_image_sr() in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php:39
+Stack trace:
+#0 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(1139): RestApi->generate_data(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/custom_p...', Array, NULL)
+#2 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/custom_p...')
+#4 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-hook.p in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 39
+
