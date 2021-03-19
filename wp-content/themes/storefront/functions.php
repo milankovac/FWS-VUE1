@@ -73,5 +73,8 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 /**
  * Create custom Rest Api
  */
+//$user=get_user_by('login','user');
+//var_dump($user);
+
 include "RestApi.php";
 $rest_api=new RestApi();

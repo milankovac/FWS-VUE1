@@ -1,0 +1,10 @@
+2021-03-19T09:03:10+00:00 CRITICAL syntax error, unexpected 'http' (T_STRING) in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 138
+
+2021-03-19T09:03:28+00:00 CRITICAL syntax error, unexpected 'http' (T_STRING) in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 138
+
+2021-03-19T10:42:38+00:00 CRITICAL syntax error, unexpected 'post_type' (T_STRING), expecting ']' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 62
+
+2021-03-19T10:43:37+00:00 CRITICAL syntax error, unexpected 'post_type' (T_STRING), expecting ']' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 62
+
+2021-03-19T10:43:41+00:00 CRITICAL syntax error, unexpected 'post_type' (T_STRING), expecting ']' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 62
+

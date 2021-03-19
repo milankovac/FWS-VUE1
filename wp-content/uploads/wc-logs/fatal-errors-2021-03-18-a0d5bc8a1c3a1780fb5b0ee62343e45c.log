@@ -1,0 +1,19 @@
+2021-03-18T15:01:39+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 103
+
+2021-03-18T15:01:54+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 103
+
+2021-03-18T15:01:54+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 103
+
+2021-03-18T15:01:55+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 103
+
+2021-03-18T15:01:55+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 103
+
+2021-03-18T15:39:29+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_current_user() in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php:100
+Stack trace:
+#0 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(1139): RestApi->all_users(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/fws/all_users', Array, NULL)
+#2 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/fws/all_users')
+#4 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-includes\class-wp-hook.php(316): WP_Hook-> in C:\xampp\htdocs\milan_kovace_forwardslash_fe_test\wp-content\themes\storefront\RestApi.php on line 100
+
